@@ -1,0 +1,50 @@
+.box{
+	width: 100px;
+	height: 100px;
+	outline: 1px solid black;
+	background: navy;
+	color: #FFF;
+	line-height: 100px;
+	text-align: center;
+	margin: 1%;
+}
+
+.rotate{
+	transform: rotate(45deg);
+}
+
+.rotate-y{
+	transform: rotateY(180deg);
+}
+
+.scale{
+	transform: scale(.5);
+}
+
+.skew{
+	transform: skew(10deg, 20deg);
+}
+
+.opacity{
+	opacity: .25;
+}
+
+.tshadow{
+	text-shadow: 3px 5px 5px #fff;
+	color: #000;
+	font-family: impact;
+	font-size: 3em;
+}
+
+/*x axis offset, y axis offset, blur, color*/
+
+.bshad{
+	box-shadow: 5px 10px 3px magenta;
+}
+
+/*to be completely circular, make use of size of box*/
+.radius{
+	border-radius: 100px; 
+	outline: none;
+
+}

@@ -1,0 +1,28 @@
+li{
+	outline: 1px solid red;
+	list-style-type: none;
+	display: inline-block;
+}
+
+a{
+	display: inline-block;
+	width: 100px;
+	text-align: center;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+a:hover{
+	background: yellow;
+	color: navy;
+}
+
+.submenu{
+	position: absolute;
+	width: 100px;
+	display: none;
+}
+
+li.dropdown:hover > ul.submenu{
+	display: block;
+}

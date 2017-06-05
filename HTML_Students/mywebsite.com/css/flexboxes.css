@@ -1,0 +1,60 @@
+.box{
+	width: 100px;
+	height: 100px;
+	background: yellow;
+	outline: 1px solid black;
+	margin: 1%;
+	text-align: center;
+	line-height: 100px;
+}
+
+.flex{
+	height: 250px;
+	background: cyan;
+	outline: 1px solid red;
+	display: flex;
+}
+
+.in-flex{
+	height: 250px;
+	background: orange;
+	outline: 1px solid red;
+	display: inline-flex;
+}
+
+.rowr{
+	flex-direction: row-reverse;
+}
+
+.col{
+	flex-direction: column;
+}
+
+.colr{
+	flex-direction: column-reverse;
+	padding-left: 20%;
+}
+
+.jc-end{
+	justify-content: flex-end;
+}
+
+.jc-ctr{
+	justify-content: center;
+}
+
+.jc-sb{
+	justify-content: space-between;
+}
+
+.jc-sa{
+	justify-content: space-around;
+}
+
+.al-end{
+	align-items: flex-end;
+}
+
+.al-ctr{
+	align-items: center;
+}

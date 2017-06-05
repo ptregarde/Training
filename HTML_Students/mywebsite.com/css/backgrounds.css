@@ -1,0 +1,24 @@
+.bg-img {
+	background-image: url(../imgs/exer_napoleon_160x120px.jpg);
+}
+
+.bg-img2 {
+	background-image: url(https://media.giphy.com/media/M1DaLGxFGS6o8/giphy.gif);
+	background-size: cover;
+}
+
+.bg-rpt{
+	background-repeat: no-repeat;
+}
+
+.bg-pos{
+	background-position: center;
+}
+
+.bg {
+	background: orange url(../imgs/exer_napoleon_160x120px.jpg) no-repeat center;
+}
+
+.bg2 {
+	background: radial-gradient(#009999, #00CCCC, #009999, #006666, #0099CC, #00CCFF, #0099FF, #0066FF, #0033FF, #0033CC, #0000CC, #000099, #000066, #000033);
+}

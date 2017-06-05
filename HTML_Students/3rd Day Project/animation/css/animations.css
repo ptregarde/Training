@@ -1,0 +1,129 @@
+.container{
+	background-image: url("imgs/castlebg2.jpg");
+	height: 650px;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.zombie{
+	position: absolute;
+	animation-name: anmtZom;
+	animation-duration: 8s;
+	animation-iteration-count: infinite;
+}
+
+.bat1{
+	position: absolute;
+	animation-name: anmtOne;
+	animation-duration: 8s;
+	animation-iteration-count: infinite;
+}
+
+.bat2{
+	position: absolute;
+	animation-name: anmTwo;
+	animation-duration: 8s;
+	animation-iteration-count: infinite;
+}
+
+.bat3{
+	position: absolute;
+	animation-name: anmThree;
+	animation-duration: 8s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes anmtZom{
+	0%{
+		bottom: 0;
+		left: 10%;
+	}
+
+	50%{
+		left: 70%
+	}
+
+	99%{
+		transform: rotateY(180deg);
+	}
+
+
+	100%{
+		bottom: 0;
+		left: 10%;
+	}
+}
+
+@keyframes anmtOne{
+	0%{
+		top: 10%;
+		left: 10%;
+	}
+
+	25%{
+		top: 40%;
+		left: 40%;
+	}
+
+	50%{
+		top: 30%;
+		left: 70%;
+	}
+
+	75%{
+		transform: rotate(180deg);
+	}
+
+	100%{
+		top: 10%;
+		left: 10%;
+	}
+}
+
+@keyframes anmTwo{
+	0%{
+		top: 30%;
+		left: 75%;
+	}
+
+	25%{
+		transform: rotate(360deg);
+		top: 50%;
+		left: 20%;
+	}
+
+	50%{
+		transform: scale(2);
+		top: 25%;
+		left: 50%;
+	}
+
+	100%{
+		top: 30%;
+		left: 75%;
+	}
+}
+
+@keyframes anmThree{
+	0%{
+		top: 50%;
+		left: 50%;
+	}
+
+	25%{
+		transform: scale(.5);
+		top: 25%;
+		left: 75%;
+	}
+
+	50%{
+		transform: rotate(50deg);
+		top: 40%;
+		left: 20%;
+	}
+
+	100%{
+		top: 50%;
+		left: 50%;
+	}
+}

@@ -1,0 +1,43 @@
+/* GENERAL */
+body {background: #eee;}
+div {display: inline-block;}
+
+/* NAVIGATION */
+nav {width: 100%; 
+	height: 50px; 
+	outline: 3px solid orange; 
+	background: blue;}
+
+.container {background: goldenrod;
+			outline: 5px solid cyan;
+			width: 100%;}
+
+/* SLIDER */
+#myCarousel {width: 100%; 
+	height: 345px; 
+	outline: 3px solid magenta; 
+	background: pink;}
+
+/* ROW 1 */
+#row1bg {background: yellow;
+		outline: 3px solid green;
+		height: 366px;
+		width: 100%;}
+
+/* ROW 2 */
+#row2bg {background: blue;
+		outline: 3px solid red;
+		height: 366px;
+		width: 100%;}
+
+/* ROW 3 */
+#row3bg {background: blue;
+		outline: 3px solid red;
+		height: 366px;
+		width: 100%;}
+
+/* FOOTER */
+#footer {background: green;
+		outline: 3px solid pink;
+		height: 366px;
+		width: 100%;}

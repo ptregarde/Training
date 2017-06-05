@@ -1,0 +1,76 @@
+.bdr1 {
+	/*3 values
+		1) border width (px)
+		2) border style (solid, dashed, etc) 
+		3) border color (semantic, hex)
+	*/
+	border-top: 3px dashed red;
+	border-right: 2px dotted blue;
+	border-bottom: 5px double orange;
+	border-left: 8px ridge pink;
+}
+
+.bdr2{
+	border: 8px outset brown;
+}
+
+.outline{
+	border: 8px outset brown;
+	outline: 5px solid orange;
+}
+
+/*MARGINS & PADDINGS*/
+
+.padding{
+	background: yellow;
+	outline: 1px solid black;
+	text-align: justify;
+	padding: 10px;
+}
+
+.parent{
+	background:grey;
+	outline: 1px solid black;
+}
+
+/*margin
+	top right bottom left (clockwise);
+*/
+
+.child{
+	width: 80px;
+	height: 80px;
+	background: yellow;
+	outline: 1px solid red;
+	float: left;
+	margin: 5% 20%;
+}
+
+.child2{
+	width: 80px;
+	height: 80px;
+	background: yellow;
+	outline: 1px solid red;
+	text-align: center;
+	margin: 0 auto;	
+}
+
+img{
+	border: 5px solid blue;
+	margin: 0 auto;
+	display: block;
+}
+
+/*square, disc, circle*/
+ul.list1 li{
+	list-style-type: circle;
+}
+
+/*lower-roman, upper-roman, lower-alpha*/
+ol.list2 li{
+	list-style-type: hiragana;
+}
+
+ol.list3 li{
+	list-style-image: url(../imgs/bullet.gif);
+}

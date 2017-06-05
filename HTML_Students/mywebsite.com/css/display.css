@@ -1,0 +1,110 @@
+.box{
+	width: 100px;
+	height: 100px;
+	outline: 1px solid black;
+	background: yellow;
+	margin: 1%;
+	text-align: center;
+}
+
+/*	block - takes up whole row (div, h1, h6 etc)
+		  - auto line break
+	inline - do not take up the whole row (a, img, span)
+	
+*/
+
+.block{
+	display: block;
+}
+
+.inline{
+	display: inline;
+}
+
+.inblock{
+	display: inline-block;
+}
+
+.none{
+	display: none;
+}
+
+/*position*/
+
+.parent{
+	width: 300px;
+	height: 300px;
+	outline: 1px solid black;
+	background: grey;
+	position: relative;
+}
+
+.child{
+	width: 100px;
+	height: 100px;
+	outline: 1px solid black;
+	background: yellow;
+}
+
+.static{
+	position: static;
+	top: 50px;
+	left: 100px;
+}
+
+.relative{
+	position: relative;
+	top: 50px;
+	left: 100px;
+}
+
+.absolute{
+	position: absolute;
+	top: 50px;
+	left: 100px;
+}
+
+.fixed{
+	position: fixed;
+	width: 100px;
+	height: 100%;
+	text-align: center;
+	line-height: 100px;
+	outline: 1px solid black;
+	background: magenta;
+	right: 0;	
+}
+
+.z1{
+	width: 100px;
+	height: 100px;
+	outline: 1px solid black;
+	background: yellow;
+	position: absolute;
+	top: 100px;
+	left: 50px;
+	z-index: 100;
+}
+
+.z2{
+	width: 100px;
+	height: 100px;
+	outline: 1px solid black;
+	background: red;
+	position: absolute;
+	top: 150px;
+	left: 80px;
+	z-index: 99;
+}
+
+.float{
+	width: 100px;
+	height: 100px;
+	background: cyan;
+	outline: 1px solid cyan;
+	float: right;
+}
+
+.clear{
+	clear: both;
+}

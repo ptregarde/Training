@@ -1,0 +1,76 @@
+.box1{
+	width: 200px;
+	height: 200px;
+	background: orange;
+	text-align: center;
+	line-height: 200px;
+	animation-name: first;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+
+}
+
+@keyframes first{
+	from {
+		background: green;
+	}
+
+	to {
+		background: red;
+		border-radius: 200px;
+		border: 3px dotted yellow;
+		margin-left: 50%;
+		transform: rotate(180deg);
+	}
+}
+
+.box2{
+	width: 200px;
+	height: 200px;
+	text-align: center;
+	line-height: 200px;
+	background: blue;
+	animation-name: second;
+	animation-duration: 8s;
+	position: absolute;
+	animation-iteration-count: infinite;
+}
+
+@keyframes second{
+	0%{
+		background: yellow;
+		top: 0;
+		left: 0;
+	}
+
+	25%{
+		background: red;
+		top: 30%;
+		left: 30%;
+		border-radius: 200px;
+		transform: rotate(180deg);
+	}
+
+	50%{
+		background: cyan;
+		top: 0;
+		left: 30%
+		transform: skew(10deg, 20deg);
+		border-radius: 0px;
+	}
+
+	75%{
+		background: radial-gradient(#009999, #00CCCC, #009999, #006666, #0099CC, #00CCFF, #0099FF, #0066FF, #0033FF, #0033CC, #0000CC, #000099, #000066, #000033);
+		top: 30%;
+		left: 0;
+		opacity: .5;
+		transform: rotate(45deg);
+		border-radius: 200px;
+	}
+
+	100%{
+		background: yellow;
+		top: 0;
+		left: 0;
+	}
+}

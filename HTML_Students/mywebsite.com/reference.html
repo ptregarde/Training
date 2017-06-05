@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My &hearts;&hearts;&hearts; Website</title>
+</head>
+<body>
+	<p>
+		<a href="#special">Special Characters</a> &hearts;
+		<a href="#media">Media</a> &hearts;
+		<a href="#links">Links</a> &hearts;
+		<a href="#lists">Lists</a> &hearts;
+		<a href="#tables">Tables</a> &hearts;
+		<a href="#forms">Forms</a> &hearts;
+		<a href="#divs">Divs</a>
+	</p>
+
+	<h1 title = "HEADER1" id = "top">Header 1</h1>
+	<h2>Header 2</h2>
+	<h3>Header 3</h3>
+	<h4>Header 4</h4>
+	<h5>Header 5</h5>
+	<h6>Header 6</h6>
+
+	<hr>
+
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	<br>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+	<p>This is a paragraph.</p>
+
+	<p>
+		<a href="http://google.com">This is a link.</a>
+	</p>
+
+	<p>This text is <b>bold</b></p>
+	<p>This text is <i>italicized</i></p>
+	<p>This text is <u>underlined</u></p>
+	<p>This text is <strong>strong</strong></p>
+	<p>This text is <em>emphasized</em></p>
+	<p>This text is <ins>inserted</ins></p>
+	<p>This text is <del>deleted</del></p>
+	<p>This text is <mark>marked</mark></p>
+	<p>This text is <sup>superscript</sup></p>
+	<p>This text is <sub>subscript</sub></p>
+	<p>This text is <small>SMALL</small></p>
+	<p>This text is <b><u><mark>mixed</mark></u></b></p>
+
+	<hr>
+	<h1 id = "special">Special Characters</h1>
+
+	<p>This is copyright &copy;</p>
+	<p>This is registered &reg;</p>
+	<p>This is trademark &trade;</p>
+	<p>This is up arrow &uarr;</p>
+	<p>This is down arrow &darr;</p>
+	<p>This is right arrow &rarr;</p>
+	<p>This is left arrow &larr;</p>
+	<p>This is right arrow quotes &raquo;</p>
+	<p>This is left arrow quotes &laquo;</p>
+	<p>This is capital N w/ tilde &Ntilde;</p>
+	<p>This is small N w/ tilde &ntilde;</p>
+	<p>&hearts; &spades; &diams; &clubs;</p>
+	<p>This is non&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;breaking              space</p>
+
+	<hr width>
+	<img src="imgs/exer_napoleon_160x120px.jpg" alt = "Picture of Napoleon" title = "Image of Napoleon" width = "50px"/>
+	
+	<!-- absolute: pixels, pt, cm, in (fixed)
+		relative: percentage, em (adjusts to parent's size)
+
+	-->
+
+	<!-- CTRL+SLASH -->
+
+	<hr>
+	<h1 id = "media">Media</h1>
+
+	<video controls width = "100%">
+		<source src="media/exer_vid_bigbuckbunny.mp4" type="video/mp4">
+	</video>
+
+	<br>
+	<br>
+
+	<center><iframe width="640" height="360" src="https://www.youtube.com/embed/xyBEmsBcwp4" frameborder="0" allowfullscreen></iframe>
+
+	<br>
+	<br>
+
+	<audio controls>
+		<source src="media/alarm.mp3" type="audio/mp3">		
+	</audio></center>
+
+	<!-- absolute - outside the directory of your website, external website
+	relative - inside your directory	
+
+	-->
+
+	<hr>
+	<h1 id = "links">Links</h1>
+
+	<!-- target = _new or _blank-->
+	<p><a href="http://google.com" target="_new" title = "Opens in a new window">www.google.com</a></p>
+
+	<p><a href="#top">Back to top &uarr;</a></p>
+	<p><a href="anchorlinks.html#p5" target = "_new">To Paragraph 5</a></p>
+	<p><a href="mailto:patt.regarde14@gmail.com">Don't email me!</a></p>
+
+	<p>
+		DOWNLOAD: <a href="downloads/orwell.pdf">pdf</a> | <a href="downloads/orwell.docx">DOCX</a> | <a href="downloads/orwell.rar">RAR</a>
+	</p>
+
+	<p>
+		<a href="imgs/exer_napoleon_640x480px.jpg" target="_new">
+			<img src="imgs/exer_napoleon_160x120px.jpg" alt = "Picture of Napoleon" title = "Image of Napoleon" width = "50px"/>
+		</a>
+	</p>
+
+	<!-- image optimizer -crunch images 
+	-wordpress  WP SMUSH
+	-->
+
+	<hr>
+	<h1 id = "lists">Lists</h1>
+
+	<ol>
+		<li>Home</li>
+		<li>About Us
+			<ol>
+				<li>Mission-Vision</li>
+				<li>Our Team</li>
+				<li>History
+					<ol>
+						<li>1990</li>
+						<li>2000</li>
+					</ol>
+				</li>
+			</ol>
+		</li>
+		<li>Contact Us</li>
+	</ol>
+
+	<ul>
+		<li>Home</li>
+		<li>About Us</li>
+		<li>Contact Us</li>
+	</ul>
+
+	<hr>
+	<h1 id = "tables">Tables</h1>
+
+	<table border = "1" width = "100%">
+			<tr>
+				<th width="33%">1 One</th>
+				<th width="33%">1 Two</th>
+				<th width="33%">1 Three</th>
+			</tr>
+			<tr>
+				<td>2 One</td>
+				<td>2 Two</td>
+				<td rowspan="2">2 Three</td>
+			</tr>
+			<tr>
+				<td colspan="2">3 One</td>
+			</tr>
+	</table>
+
+	<br>
+
+	<table border="1" width = "">
+		<tr>
+			<td colspan = "3">TD</td>
+		</tr>
+		<tr>
+			<td>TD</td>
+			<td rowspan="2">TD</td>
+			<td>TD</td>
+		</tr>
+		<tr>
+			<td>TD</td>
+			<td>TD</td>
+		</tr>
+	</table>
+
+	<hr>
+	<h1 id = "forms">Forms</h1>
+
+	<form>
+		<p>Text: <input type="text" name="fname" placeholder="First Name"></p>
+		<p>Checkbox: 
+			<input type="checkbox" name="ch1">A
+			<input type="checkbox" name="ch2">B
+		</p>
+		<p>Radio: 
+			<input type="radio" name="radio">A
+			<input type="radio" name="radio">B
+			<input type="radio" name="radio">C
+		</p>
+		<p>Color: <input type="color" name="color"></p>
+		<p>File: <input type="file" name="file"></p>
+		<p>Date: <input type="date" name="date"></p>
+		<p>Password: <input type="password" name="password"></p>
+		<p>URL: <input type="url" name="url" placeholder="http://google.com"></p>
+		<p>Email: <input type="email" name="email" placeholder="email@host.com"></p>
+		<p>Button: <input type="button" name="button" value="Click me!"></p>
+		<p>Reset: <input type="reset" name="reset"></p>
+		<p>Submit: <input type="submit" name="submit"></p>
+
+		<textarea cols = "50" rows="10" placeholder="Comments, suggestions, reactions..."></textarea>
+
+		<p>Favorite food:
+			<select>
+				<option selected disabled>Please select one...</option>
+				<optgroup label = "Italian">
+					<option>Pizza</option>
+					<option>Pasta</option>
+				</optgroup>
+
+				<optgroup label = "Filipino">					
+					<option>Adobo</option>
+					<option>Sinigang</option>
+					<option>Kare-Kare</option>
+					</optgroup>
+			</select>
+		</p>
+
+		<hr>
+		<h1 id = "divs">DIVS</h1>
+
+		<div style = "background-color: red; width: 50%;">
+			<h4>Header</h4>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<img src="imgs/exer_napoleon_160x120px.jpg" alt = "Picture of Napoleon" title = "Image of Napoleon" width = "50px"/>
+			<p><a href="http://google.com">This is a link.</a></p>
+		</div>
+		<div style = "background-color: green; width: 70%;">
+			<h4>Header</h4>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<img src="imgs/exer_napoleon_160x120px.jpg" alt = "Picture of Napoleon" title = "Image of Napoleon" width = "50px"/>
+			<p><a href="http://google.com">This is a link.</a></p>
+		</div>
+	</form>
+</body>
+</html>	

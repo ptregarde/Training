@@ -1,0 +1,110 @@
+.ffam1{
+	font-family: "fira sans", helvetica, "sans serif";
+}
+
+.ffam2{
+	font-family: 'Arvo', serif;
+}
+
+.ffam3{
+	font-family: 'Open Sans', sans-serif;
+}
+
+.fsize2{
+	font-size: 2em;
+}
+
+.fsize3{
+	font-size: 8px;
+}
+
+.tdeco1{
+	text-decoration: underline;
+}
+
+.tdeco2{
+	text-decoration: overline;
+}
+
+.tdeco3{
+	text-decoration: line-through;
+}
+
+.tdeco4{
+	text-decoration: underline overline;
+}
+
+.tdeco5{
+	text-decoration: underline overline line-through;
+}
+
+.ttrans1{
+	text-transform: uppercase;
+}
+
+.ttrans2{
+	text-transform: lowercase;
+}
+
+.ttrans3{
+	text-transform: capitalize;
+}
+
+.talign1{
+	text-align: right;
+}
+
+.talign2{
+	text-align: center;
+}
+
+.talign3{
+	text-align: justify;
+}
+
+.lheight1{
+	line-height: 32px;
+}
+
+.lheight2{
+	line-height: 8px;
+}
+
+.lspace1{
+	letter-spacing: 5px;
+}
+
+.lspace2{
+	letter-spacing: -1px;
+}
+
+/*pseudo-selectors (event)*/
+
+a{
+	text-decoration: none;
+}
+
+a:link{
+	color: red;
+}
+
+a:active{
+	color: green;
+}
+
+a:visited{
+	color: red;
+}
+
+a:hover{
+	color: black;
+	text-decoration: underline overline;
+	text-transform: uppercase;
+	background: url(http://www.dokimos.org/ajff/idx2.gif);
+	cursor: crosshair;
+}
+
+
+img:hover{
+	outline: 5px solid yellow;
+}
